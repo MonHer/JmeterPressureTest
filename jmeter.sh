@@ -11,9 +11,9 @@ export os_type=`uname`
 echo "自动化压测开始"
 
 # 压测并发数列表
-thread_number_array=(10 20 30 40)
+thread_number_array=(10 20 30 40 50)
 for num in "${thread_number_array[@]}"
-do \r
+do
 	# 生成对应压测线程的jmx文件
         export jmx_filename="${jmx_template}_${num}${suffix}"
         export jtl_filename="test_${num}.jtl"
