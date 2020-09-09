@@ -79,7 +79,7 @@
           </elementProp>
           <elementProp name="auth-token" elementType="Argument">
             <stringProp name="Argument.name">auth-token</stringProp>
-            <stringProp name="Argument.value">bdb4880ceac54b1ea5825fed44cc14ba</stringProp>
+            <stringProp name="Argument.value">b8ef36ce0dec45e79f11bf0ede11f762</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="app-type" elementType="Argument">
